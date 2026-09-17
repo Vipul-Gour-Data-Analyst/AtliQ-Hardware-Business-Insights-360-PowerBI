@@ -139,7 +139,6 @@ The data preparation process included:
 
 Detailed documentation:
 
-- [Power Query & Data Cleaning](01_Data_Cleaning/Power_Query_Data_Cleaning.md)
 - [Data Model](02_Data_Model/Data_Model.md)
 - [DAX Measures](03_DAX/DAX_Measures.md)
 
