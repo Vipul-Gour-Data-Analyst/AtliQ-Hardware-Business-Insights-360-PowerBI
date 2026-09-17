@@ -149,11 +149,6 @@ The data preparation process included:
 7. Validating data before loading into Power BI
 8. Preparing the data for analytical modeling
 
-Detailed documentation:
-
-- [Data Model] 
-- [DAX Measures](03_DAX/DAX_Measures.md)
-
 ---
 
 ## 🧩 Data Model
@@ -179,8 +174,6 @@ The model was designed to improve:
 - Report performance
 - Cross-functional analysis
 
-📄 **[View Data Model →](02_Data_Model/Data_Model.md)**
-
 ---
 
 ## 📐 DAX & Measures
@@ -197,8 +190,6 @@ DAX was used to create business measures and analytical KPIs including:
 - Revenue Contribution
 - Year-over-Year Analysis
 - Channel & Regional Metrics
-
-📄 **[View DAX Documentation →](03_DAX/DAX_Measures.md)**
 
 ---
 
@@ -244,6 +235,7 @@ AtliQ-Hardware-Business-360-Power-BI-Project/
 │   └── README.md
 │
 ├── 01_Datasets/
+|   ├── SQL_Data
 │   ├── fact_sales_monthly.csv
 │   ├── dim_customer.csv
 │   ├── dim_product.csv
@@ -262,12 +254,9 @@ AtliQ-Hardware-Business-360-Power-BI-Project/
 │   └── Dashboard PDF/
 │
 ├── 06_Project_Documentation/
-│   ├── Business Insights.md
-│   ├── Data Cleaning.md
-│   ├── Key Insights.md
-│   ├── Project Walkthrough.md
-│   └── README.md
-│
+│   ├── AtliQ_Hardware_BI_360_PDF
+│   ├── AtliQ_Hardware_BI_360_Presentation
+|
 └── README.md
 ```
 
