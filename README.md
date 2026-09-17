@@ -311,8 +311,7 @@ The final dashboard provides a centralized view of business performance across m
 
 | Documentation | Link |
 |---|---|
-| 🧹 Data Cleaning | [Power Query Data Cleaning](01_Data_Cleaning/Power_Query_Data_Cleaning.md) |
-| 🧩 Data Model | [Data Model](02_Data_Model/Data_Model.md) |
+| 🧩 Data Model |  |
 | 📐 DAX | [DAX Measures](03_DAX/DAX_Measures.md) |
 | 📊 Dashboard | [Dashboard Screenshots](04_Dashboard_Screenshots/) |
 
@@ -323,9 +322,9 @@ The final dashboard provides a centralized view of business performance across m
 **Vipul Gour**  
 **Data Analyst | SQL | Power BI | Python | Excel**
 
-🔗 **LinkedIn:** [Vipul Gour](https://www.linkedin.com/in/vipulgour/)  
-🌐 **Portfolio:** [My Portfolio](#)  
-💻 **GitHub:** [Vipul Gour](https://github.com/VipulGour)
+🔗 **LinkedIn:** https://shorturl.at/D7tjF  
+🌐 **Portfolio:** https://shorturl.at/zIUwQ  
+💻 **GitHub:** https://shorturl.at/Fgkqr
 
 ---
 
