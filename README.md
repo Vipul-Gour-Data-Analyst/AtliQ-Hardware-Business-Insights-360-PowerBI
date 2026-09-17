@@ -41,6 +41,8 @@ The objective of this project was to build a centralized **Business Insights 360
 ### 🏠 Home
 Provides an overall navigation and business performance overview.
 
+<img width="1182" height="675" alt="01_Home View" src="https://github.com/user-attachments/assets/af98050b-582b-42b4-8bc7-8cac48ac88fd" />
+
 ### 💰 Finance View
 Analyzes:
 - Net Sales
@@ -49,6 +51,8 @@ Analyzes:
 - Net Profit %
 - Cost & expense trends
 - Profitability performance
+
+<img width="1181" height="680" alt="03_Finance View" src="https://github.com/user-attachments/assets/9c0e7bea-f8f8-4f6c-9ef8-9b51f80d5c29" />
 
 ### 📈 Sales View
 Analyzes:
@@ -59,6 +63,8 @@ Analyzes:
 - Regional performance
 - Gross margin trends
 
+<img width="1185" height="675" alt="02_Sales View" src="https://github.com/user-attachments/assets/fd12d799-a214-47f2-9205-1103f7e1f243" />
+
 ### 📢 Marketing View
 Analyzes:
 - Product/category performance
@@ -66,12 +72,16 @@ Analyzes:
 - Market contribution
 - Profitability trends
 
+<img width="1186" height="678" alt="04_Marketing View" src="https://github.com/user-attachments/assets/68aa8489-8542-4e31-b69c-4712a2a0a15e" />
+
 ### 🚚 Supply Chain View
 Analyzes:
 - Forecast accuracy
 - Forecast error
 - Supply performance
 - Product-level operational metrics
+
+<img width="1182" height="675" alt="05_Supply Chain View" src="https://github.com/user-attachments/assets/f7810a40-3a3e-46a6-b86b-c589464597f0" />
 
 ### 👔 Executive View
 Provides a high-level summary of:
@@ -81,6 +91,8 @@ Provides a high-level summary of:
 - Channel contribution
 - Product performance
 - Key business KPIs
+
+<img width="1185" height="676" alt="06_Executive View" src="https://github.com/user-attachments/assets/5a0bab92-28ce-46f9-b3fa-1aebdebc54c5" />
 
 ---
 
@@ -139,7 +151,7 @@ The data preparation process included:
 
 Detailed documentation:
 
-- [Data Model](02_Data_Model/Data_Model.md)
+- [Data Model] 
 - [DAX Measures](03_DAX/DAX_Measures.md)
 
 ---
@@ -207,21 +219,19 @@ The optimization process focused on:
 ## 📊 Dashboard Preview
 
 ### Executive View
-![Executive View](04_Dashboard_Screenshots/Executive_View.png)
+<img width="1185" height="676" alt="06_Executive View" src="https://github.com/user-attachments/assets/5a0bab92-28ce-46f9-b3fa-1aebdebc54c5" />
 
 ### Finance View
-![Finance View](04_Dashboard_Screenshots/Finance_View.png)
+<img width="1181" height="680" alt="03_Finance View" src="https://github.com/user-attachments/assets/9c0e7bea-f8f8-4f6c-9ef8-9b51f80d5c29" />
 
 ### Sales View
-![Sales View](04_Dashboard_Screenshots/Sales_View.png)
+<img width="1185" height="675" alt="02_Sales View" src="https://github.com/user-attachments/assets/fd12d799-a214-47f2-9205-1103f7e1f243" />
 
 ### Marketing View
-![Marketing View](04_Dashboard_Screenshots/Marketing_View.png)
+<img width="1186" height="678" alt="04_Marketing View" src="https://github.com/user-attachments/assets/68aa8489-8542-4e31-b69c-4712a2a0a15e" />
 
 ### Supply Chain View
-![Supply Chain View](04_Dashboard_Screenshots/Supply_Chain_View.png)
-
-> Replace the image paths above with the actual screenshot filenames in your repository.
+<img width="1182" height="675" alt="05_Supply Chain View" src="https://github.com/user-attachments/assets/f7810a40-3a3e-46a6-b86b-c589464597f0" />
 
 ---
 
@@ -230,24 +240,33 @@ The optimization process focused on:
 ```text
 AtliQ-Hardware-Business-360-Power-BI-Project/
 │
-├── 01_Data_Cleaning/
-│   └── Power_Query_Data_Cleaning.md
+├── 00_AtliQ_Hardware_Icons/
+│   └── README.md
+│
+├── 01_Datasets/
+│   ├── fact_sales_monthly.csv
+│   ├── dim_customer.csv
+│   ├── dim_product.csv
+│   ├── dim_market.csv
+│   ├── dim_date.csv
+│   └── README.md
 │
 ├── 02_Data_Model/
-│   └── Data_Model.md
+│   └── Data Model.md
 │
 ├── 03_DAX/
-│   └── DAX_Measures.md
+│   └── DAX Measures.md
 │
-├── 04_Dashboard_Screenshots/
-│   ├── Executive_View.png
-│   ├── Finance_View.png
-│   ├── Sales_View.png
-│   ├── Marketing_View.png
-│   └── Supply_Chain_View.png
+├── 04_PowerBI_Dashboard/
+│   ├── Dashboard Screenshots/
+│   └── Dashboard PDF/
 │
-├── 05_Power_BI_Report/
-│   └── AtliQ_Business_Insights_360.pbix
+├── 06_Project_Documentation/
+│   ├── Business Insights.md
+│   ├── Data Cleaning.md
+│   ├── Key Insights.md
+│   ├── Project Walkthrough.md
+│   └── README.md
 │
 └── README.md
 ```
@@ -303,16 +322,6 @@ This project demonstrates an end-to-end **Business Intelligence workflow**:
 **Raw Data → Data Cleaning → Data Transformation → Data Modeling → DAX → KPI Development → Dashboard → Business Insights**
 
 The final dashboard provides a centralized view of business performance across multiple functions and demonstrates how Power BI can transform complex business data into an interactive analytical solution.
-
----
-
-## 📚 Documentation
-
-| Documentation | Link |
-|---|---|
-| 🧩 Data Model |  |
-| 📐 DAX | [DAX Measures](03_DAX/DAX_Measures.md) |
-| 📊 Dashboard | [Dashboard Screenshots](04_Dashboard_Screenshots/) |
 
 ---
 
