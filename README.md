@@ -253,7 +253,7 @@ AtliQ-Hardware-Business-360-Power-BI-Project/
 │   ├── Dashboard Screenshots/
 │   └── Dashboard PDF/
 │
-├── 06_Project_Documentation/
+├── 05_Project_Documentation/
 │   ├── AtliQ_Hardware_BI_360_PDF
 │   ├── AtliQ_Hardware_BI_360_Presentation
 |
